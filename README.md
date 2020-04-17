@@ -43,7 +43,7 @@ outra forma de armazenamento. Está etapa pode ser mockada.
 
 ### Seria interessante
 
-* Documentação interativa da API com Swagger 
+* Documentação interativa da API com Swagger   
 ou 
 * Crie as chamadas para a API em uma Collection do Postman e exporte para que possamos realizar as chamadas através dela.
 
