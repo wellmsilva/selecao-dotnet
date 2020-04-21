@@ -54,4 +54,4 @@ ou
 2. Desenvolva.
 3. Envie o link do seu repositório para o e-mail walvesm@indracompany.com e hhoffman@indracompany.com sinalizando a entrega.
 
-OBS: Você possui 3 dias para entregar a atividade. Em caso de dúvidas enviar e-mail para walvesm@indracompany.com.
+OBS: Você possui 4 dias para entregar a atividade. Em caso de dúvidas enviar e-mail para walvesm@indracompany.com.
