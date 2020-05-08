@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/backend/.vs/Indra.SelecaoDotNet
+/backend/Indra.SelecaoDotNet.Application/bin/Debug/netstandard2.0
+/backend/Indra.SelecaoDotNet.Application/obj
+/backend/Indra.SelecaoDotNet.Infra.Data/bin/Debug/netstandard2.0
+/backend/Indra.SelecaoDotNet.Infra.Data/obj
+/backend/Indra.SelecaoDotNet.Dominio/bin/Debug/netstandard2.0
+/backend/Indra.SelecaoDotNet.Dominio/obj
+/backend/Indra.SelecaoDotNet.IoC/bin/Debug/netstandard2.0
+/backend/Indra.SelecaoDotNet.IoC/obj
+/backend/Indra.SelecaoDotNet.Test/bin/Debug/netcoreapp3.1
+/backend/Indra.SelecaoDotNet.Test/obj
+/backend/Indra.SelecaoDotNet.WebApi/bin/Debug/netcoreapp3.1
+/backend/Indra.SelecaoDotNet.Test/CursoServiceTest.cs
+/backend/Indra.SelecaoDotNet.WebApi/obj
+*.user

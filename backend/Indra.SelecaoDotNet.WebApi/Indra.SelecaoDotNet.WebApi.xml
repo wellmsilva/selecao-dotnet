@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Indra.SelecaoDotNet.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Indra.SelecaoDotNet.WebApi.Controllers.CursoController">
+            <summary>
+            Cursos oferecidos pela plataforma
+            </summary>
+        </member>
+        <member name="M:Indra.SelecaoDotNet.WebApi.Controllers.CursoController.Get">
+            <summary>
+            Lista de cursos 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Indra.SelecaoDotNet.WebApi.Controllers.CursoController.Get(System.Guid)">
+            <summary>
+            Lista de cursos 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Indra.SelecaoDotNet.WebApi.Controllers.CursoController.RealizarMatricula(System.Guid)">
+            <summary>
+            Lista de cursos 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Indra.SelecaoDotNet.WebApi.Controllers.CursoController.EfetuarPagamento(System.Guid)">
+            <summary>
+            Lista de cursos 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Indra.SelecaoDotNet.WebApi.Controllers.UsuarioController">
+            <summary>
+            Usuário/Estudante da plataforma
+            </summary>
+        </member>
+        <member name="M:Indra.SelecaoDotNet.WebApi.Controllers.UsuarioController.Get">
+            <summary>
+            Lista de alunos 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Indra.SelecaoDotNet.WebApi.Controllers.UsuarioController.Registrar(Indra.SelecaoDotNet.Application.ViewModels.UsuarioViewModel)">
+            <summary>
+            Registra-se na plataforma
+            </summary>
+            <param name="model"></param>
+            
+        </member>
+        <member name="M:Indra.SelecaoDotNet.WebApi.Controllers.UsuarioController.Cartoes">
+            <summary>
+            Lista de alunos 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Indra.SelecaoDotNet.WebApi.Controllers.UsuarioController.CartaoPadrao(System.Guid)">
+            <summary>
+            Lista de alunos 
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200508101447_MainMigration.cs" />
+    <Compile Remove="Migrations\20200508101447_MainMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200508121832_MainMigration.cs" />
+    <Compile Remove="Migrations\20200508121832_MainMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200508124735_MainMigration.cs" />
+    <Compile Remove="Migrations\20200508124735_MainMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200508125140_MainMigration.cs" />
+    <Compile Remove="Migrations\20200508125140_MainMigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Indra.SelecaoDotNet.Dominio\Indra.SelecaoDotNet.Dominio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
