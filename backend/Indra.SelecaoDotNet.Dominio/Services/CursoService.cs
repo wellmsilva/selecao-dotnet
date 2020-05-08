@@ -13,14 +13,17 @@ namespace Indra.SelecaoDotNet.Dominio.Services
         private readonly IUsuarioRepository usuarioRepository;
         private readonly IMatriculaRepository matriculaRepository;
         private readonly ICartaoRepository cartaoRepository;
+        private readonly IEmailRepository emailRepository;
 
         public CursoService(ICursoRepository repository, IUsuarioRepository usuarioRepository,
-            IMatriculaRepository matriculaRepository, ICartaoRepository cartaoRepository) : base(repository)
+            IMatriculaRepository matriculaRepository, ICartaoRepository cartaoRepository,
+            IEmailRepository emailRepository) : base(repository)
         {
             this.repository = repository;
             this.usuarioRepository = usuarioRepository;
             this.matriculaRepository = matriculaRepository;
             this.cartaoRepository = cartaoRepository;
+            this.emailRepository = emailRepository;
         }
 
         public IUsuarioRepository UsuarioRepository { get; }
@@ -50,7 +53,7 @@ namespace Indra.SelecaoDotNet.Dominio.Services
                 var matricula = new Matricula(curso, usuario, DateTime.Now);
                 matricula.GerarPagamento();
                 matriculaRepository.Adiciona(matricula);
-
+                emailRepository.Enviar(usuario.Email, "CursosOn", $"Ola {usuario.Nome} \n Sua matrícula foi realizada com sucesso");
                 return matricula;
             }
             return null;

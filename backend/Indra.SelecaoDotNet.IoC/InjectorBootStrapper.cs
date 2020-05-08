@@ -24,6 +24,8 @@ namespace Indra.SelecaoDotNet.IoC
             CartaoRegisterServices(services);
             CursoRegisterServices(services);
             MatriculaRegisterServices(services);
+
+            services.AddScoped<IEmailRepository, EmailRepository>();
         }
 
         private static void MatriculaRegisterServices(IServiceCollection services)
